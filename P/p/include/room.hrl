@@ -17,6 +17,7 @@
 -define(ROOM_TYPE_SHIDIANBAN, 106).           %% 十点半.
 -define(ROOM_TYPE_TUIDUIZI, 107).             %% 推对子
 -define(ROOM_TYPE_SANDAI, 108).               %% 陕西三代
+-define(ROOM_TYPE_PAIJIU,109).
 %% 玩家状态
 -define(PLAYER_STATE_WAITING, 0).
 -define(PLAYER_STATE_PLAYING, 1).   %% 游戏中
@@ -46,6 +47,20 @@
     is_agent_room = false,          %% 是否代理房
     pay_way = 0                     %% 房费支付方式(1 = 房主支付，2 = AA支付)
 }).
+
+
+%% 牌九房间属性
+-record(room_paijiu_property,{
+  round_type=1,                      %% 局数类型(1=12局,2=24局)
+  banker_type=1,                     %% 坐庄类型 (1 = 房主坐庄，2 = 轮流坐庄，3 = 经典抢庄)
+  game_type=1,                       %% 玩法选择(1=大牌九,2=小牌九,3=加锅牌九)
+  has_guizi=false,                   %% 鬼子
+  has_tianjiuwang=false,            %% 天九王
+  has_dijiuwang=false,               %% 地九王
+  has_sanbazha=false,                %% 三八为炸弹
+  score_type=true                   %% 分数选择(true=每次选分,false=固定分)
+}).
+
 
 %% 牛牛房间属性
 -record(room_niuniu_property, {

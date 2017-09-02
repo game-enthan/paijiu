@@ -124,6 +124,7 @@ get_mod(?ROOM_TYPE_LANZHOU_WAKENG) -> room_wakeng;
 get_mod(?ROOM_TYPE_SHIDIANBAN) -> room_shidianban;
 get_mod(?ROOM_TYPE_TUIDUIZI) -> room_tuiduizi;
 get_mod(?ROOM_TYPE_SANDAI) -> room_sandai;
+get_mod(?ROOM_TYPE_PAIJIU) -> room_paijiu;
 get_mod(_) -> undefined.
 
 %%--------------------------------------------------------------------

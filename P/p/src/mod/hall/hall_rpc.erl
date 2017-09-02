@@ -98,6 +98,23 @@ handle(11000, #pbjoininroom{room_id = RoomId, gps = Gps, is_xbw = IsXbw},
         _ ->
             {error, ?ERR_ROOM_NOEXIST}
     end;
+
+
+%% 创建牌九房间
+handle(11020,#pbcreateroompaijiu{cost_room_card_num=CostCardNum0,zhuang_type=ZhuangType,gps = Gps,game_type=GameType,has_guizi=HasGuizi,
+        has_tianjiuwang=HasTianJiuwang,has_dijiuwang=HasDijiuwang,has_sanbazha=HasSanbazha,score_type=ScoreType},
+        #role{room_id = 0, id = RoleId, pid = RPid, wechat_name = Name, icon = Icon, room_card = CardNum, ip = Ip, sex = Sex} = Role)) ->
+    CostCardNum=?IIF(?IS_COST_CARD,CostCardNum0,0),
+    case CardNum >= CostCardNum of
+        true -> room_mgr:create_room(?ROOM_TYPE_PAIJIU,RoleId,RPid,Name,Icon,Sex,ip_to_str(Ip),Gps,CostCardNum,false,0,0,2,
+            #room_paijiu_property{banker_type=ZhuangType,game_type=GameType,has_guizi=HasGuizi,
+            has_tianjiuwang=HasTianJiuwang,has_dijiuwang=HasDijiuwang,has_sanbazha=HasSanbazha,score_type=ScoreType},Role);
+        _ ->
+             ?DEBUG("房卡数不够，CostCardNum:~w, CardNum:~w", [CostCardNum, CardNum]),
+            {error, ?ERR_ROOM_CARD_NOT_ENOUGH}
+    end;
+
+
 %% 创建牛牛房间
 handle(11001, #pbcreateroombull{round = RoundType, pay_way = PayWay, has_flower_card = HasFlowerCard,
     three_card = ThreeCard, forbid_enter = ForbidEnter, has_whn = HasWhn, has_zdn = HasZdn,
@@ -220,6 +237,7 @@ handle(11012, #pbcreateroomshanxiwakeng{cost_room_card_num = CostCardNum0, call_
             ?DEBUG("房卡数不够，CostCardNum:~w, CardNum:~w", [CostCardNum, CardNum]),
             {error, ?ERR_ROOM_CARD_NOT_ENOUGH}
     end;
+
 %% 创建兰州挖坑房间
 handle(11013, #pbcreateroomlanzhouwakeng{cost_room_card_num = CostCardNum0, is_can_bomb = IsCanBomb,
     air_bomb_multiple = AirBombMultiple, put_off_poker = PutOffPoker, bomb_top = BombTop, gps = Gps}, 
@@ -279,7 +297,7 @@ handle(11015,
         icon = Icon, 
         room_card = CardNum, 
         ip = Ip, sex = Sex} = Role) ->
-    ?INFO("创建推对子房间"),
+    io:format("创建推对子房间............~n"),
     CostCardNum = ?IIF(?IS_COST_CARD, CostCardNum0, 0),
     case CardNum >= CostCardNum of
         true ->
@@ -297,7 +315,8 @@ handle(11015,
                     is_river = Isriver,
                     nine_double = NineDouble,
                     xian_double = XianDouble,
-                    zhuang_double = ZhuangDouble}, Role);
+                    zhuang_double = ZhuangDouble}, Role),
+            ?INFO("创建房间成功!................");
         _ ->
             ?DEBUG("房卡数不够，CostCardNum:~w, CardNum:~w", [CostCardNum, CardNum]),
             {error, ?ERR_ROOM_CARD_NOT_ENOUGH}
