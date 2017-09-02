@@ -1,0 +1,27 @@
+{
+    [
+        "src/sys/*"
+    ],
+    [
+        debug_info
+        ,{debug_info_key,{des3_cbc, "YL178_Server_Develop_By_Li_Shen"}}
+        ,{i, "include"}
+        ,{outdir, "cbin"}
+    ]
+}.
+{
+	[
+		"src/*"
+		,"src/*/*"
+		,"src/*/*/*"
+		,"src/*/*/*/*"
+	],
+
+	[
+		debug_info
+		,{debug_info_key,{des3_cbc, "YL178_Server_Develop_By_Li_Shen"}}
+		,{i, "include"}
+		,{outdir, "ebin"}
+	]
+
+}.

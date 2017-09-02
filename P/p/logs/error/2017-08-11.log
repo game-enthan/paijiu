@@ -1,0 +1,46 @@
+error[2017/8/11 23:55:41][pangzi_sup:99]1----------------------------------
+error[2017/8/11 23:55:41][pangzi_sup:101]2---------------------------------
+error[2017/8/11 23:55:42][pangzi_sup:71]check_mnesia_info is suc-----------------------------
+error[2017/8/11 23:55:43][pangzi_sup:74]3---------------------------------------
+error[2017/8/11 23:55:43][pangzi_sup:76]Mods---------------------------:[role_db,auto_id]
+error[2017/8/11 23:55:43][pangzi_sup:168]get_all_meta_info---------------------------------
+error[2017/8/11 23:55:43][pangzi_sup:172]Metas----------------------:[{db_table_meta,role_tab,set,[id,pid,connpid,socket,wechat_id,wechat_name,sex,vip_lv,room_card,room_card_cost,room_card_recharge,icon,account,password,temp_account,temp_password,temp_account_endtime,agent_invite_code,agent_id,room_id,room_pid,room_type,is_online,status,ip,total_score,total_win_num,total_pay,total_round,five_little_niu,five_flower_niu,two_three_five,bao_zi,total_room,doudizhu_room_card,niuniu_room_card,shidianban_room_card,tuiduizi_room_card,wakeng_room_card,zhajinhua_room_card,agent_room_num,balance_total_score,balance_total_score2],undefined,3,1,30,undefined}]
+error[2017/8/11 23:55:43][pangzi_sup:183]_E-------------------------:true
+error[2017/8/11 23:55:43][pangzi_sup:172]Metas----------------------:[{db_table_meta,auto_id_tab,set,[id,use_max_id],undefined,0,1,30,undefined}]
+error[2017/8/11 23:55:43][pangzi_sup:183]_E-------------------------:true
+error[2017/8/11 23:55:43][pangzi_worker:81]1-----------------------------: auto_id_tab
+error[2017/8/11 23:55:43][pangzi_worker:81]1-----------------------------: role_tab
+error[2017/8/11 23:55:43][tcp_listener:71]tcp_listener Port-------------------:9123
+error[2017/8/11 23:55:43][tcp_listener:82]tcp_listener----------------------------------
+error[2017/8/11 23:55:55][tcp_acceptor:123]tcp_acceptor-----------:{1} socketlist: {#Port<0.2213>,#Port<0.2214>}
+error[2017/8/11 23:55:55][tcp_acceptor:203]client socket------------------------: #Port<0.2214>
+error[2017/8/11 23:55:55][tcp_acceptor:206]accept Ip: {192,168,0,100}, Socket----------: #Port<0.2214>
+error[2017/8/11 23:55:56][tcp_acceptor:123]tcp_acceptor-----------:{1} socketlist: {#Port<0.2213>,#Port<0.2215>}
+error[2017/8/11 23:55:56][tcp_acceptor:203]client socket------------------------: #Port<0.2215>
+error[2017/8/11 23:55:56][tcp_acceptor:206]accept Ip: {192,168,0,100}, Socket----------: #Port<0.2215>
+error[2017/8/11 23:56:0][gambling_record:86]gambling_record------------------------------------
+error[2017/8/11 23:56:8][gambling_record:151]begin_record R: -----------------
+error[2017/8/11 23:56:8][gambling_record:151]begin_record R: -----------------
+error[2017/8/11 23:56:8][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:8][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:8][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:8][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:8][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:8][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:11][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:11][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:11][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:11][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:11][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:11][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:12][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:12][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:155]record--------------------------------
+error[2017/8/11 23:56:13][gambling_record:166]end_record---------------------------
+error[2017/8/11 23:56:13][role_db:417]insert 1----------------------------
+error[2017/8/11 23:56:13][role_db:419]Id-------------------:2

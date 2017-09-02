@@ -1,0 +1,6 @@
+error[2017/8/12 23:46:49][pangzi_sup:121]init db schema ok
+error[2017/8/12 23:47:48][room_niuniu:1888]close_room_handle-------------------------:203168
+error[2017/8/12 23:47:54][gambling_record_rpc:27]1----------------------------------:10054
+error[2017/8/12 23:50:51][gambling_record_rpc:27]1----------------------------------:10053
+error[2017/8/12 23:51:8][tcp_conn:175]玩家role_id:10053  心跳超时
+error[2017/8/12 23:51:19][tcp_conn:175]玩家role_id:10053  心跳超时

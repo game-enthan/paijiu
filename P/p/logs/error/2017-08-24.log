@@ -1,0 +1,9 @@
+error[2017/8/24 23:58:37][login_rpc:115]tmp account login------------------------
+error[2017/8/24 23:58:38][login_rpc:115]tmp account login------------------------
+error[2017/8/24 23:58:39][login_rpc:115]tmp account login------------------------
+error[2017/8/24 23:58:42][login_rpc:115]tmp account login------------------------
+error[2017/8/24 23:59:7][room_niuniu:266]PokerList4-------------------------:[{poker,6,1},{poker,10,2},{poker,6,4},{poker,13,4}]
+error[2017/8/24 23:59:7][room_niuniu:266]PokerList4-------------------------:[{poker,4,3},{poker,3,1},{poker,3,4},{poker,4,4},{poker,3,3}]
+error[2017/8/24 23:59:7][room_niuniu:266]PokerList4-------------------------:[{poker,2,3},{poker,4,2},{poker,7,4},{poker,3,2},{poker,11,1}]
+error[2017/8/24 23:59:44][room_niuniu:1045]玩家在房间中掉线出去居然没找到自己在房间中的信息: 10004
+error[2017/8/24 23:59:44][login_rpc:115]tmp account login------------------------

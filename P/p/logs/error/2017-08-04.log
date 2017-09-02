@@ -1,0 +1,45 @@
+error[2017/8/4 15:30:39][room_sandai:1384]BombScoreList---------------------------:[{10110,20},{10111,-10},{10112,10}]
+error[2017/8/4 15:33:45][room_sandai:1376]PlayerId----:10112,    S1----:10    BombNum---:1
+error[2017/8/4 15:33:45][room_sandai:1376]PlayerId----:10111,    S1----:10    BombNum---:0
+error[2017/8/4 15:33:45][room_sandai:1376]PlayerId----:10110,    S1----:0    BombNum---:1
+error[2017/8/4 15:33:45][room_sandai:1385]BombScoreList---------------------------:[{10110,20},{10111,-10},{10112,10}]
+error[2017/8/4 15:39:11][room_sandai:1372]PlayerId2-----:10111,   BombNum2-----:0
+error[2017/8/4 15:39:11][room_sandai:1372]PlayerId2-----:10110,   BombNum2-----:1
+error[2017/8/4 15:39:11][room_sandai:1377]PlayerId----:10112,    S1----:10    BombNum---:1
+error[2017/8/4 15:39:11][room_sandai:1372]PlayerId2-----:10112,   BombNum2-----:1
+error[2017/8/4 15:39:11][room_sandai:1372]PlayerId2-----:10110,   BombNum2-----:1
+error[2017/8/4 15:39:11][room_sandai:1377]PlayerId----:10111,    S1----:10    BombNum---:0
+error[2017/8/4 15:39:11][room_sandai:1372]PlayerId2-----:10112,   BombNum2-----:1
+error[2017/8/4 15:39:11][room_sandai:1372]PlayerId2-----:10111,   BombNum2-----:0
+error[2017/8/4 15:39:11][room_sandai:1377]PlayerId----:10110,    S1----:0    BombNum---:1
+error[2017/8/4 15:39:11][room_sandai:1386]BombScoreList---------------------------:[{10110,20},{10111,-10},{10112,10}]
+error[2017/8/4 15:40:14][room_sandai:1372]PlayerId2-----:10111,   BombNum2-----:0
+error[2017/8/4 15:40:14][room_sandai:1372]PlayerId2-----:10110,   BombNum2-----:1
+error[2017/8/4 15:40:14][room_sandai:1377]PlayerId----:10112,    S1----:10    BombNum---:1
+error[2017/8/4 15:40:14][room_sandai:1372]PlayerId2-----:10112,   BombNum2-----:1
+error[2017/8/4 15:40:14][room_sandai:1372]PlayerId2-----:10110,   BombNum2-----:1
+error[2017/8/4 15:40:14][room_sandai:1377]PlayerId----:10111,    S1----:20    BombNum---:0
+error[2017/8/4 15:40:14][room_sandai:1372]PlayerId2-----:10112,   BombNum2-----:1
+error[2017/8/4 15:40:14][room_sandai:1372]PlayerId2-----:10111,   BombNum2-----:0
+error[2017/8/4 15:40:14][room_sandai:1377]PlayerId----:10110,    S1----:10    BombNum---:1
+error[2017/8/4 15:40:14][room_sandai:1386]BombScoreList---------------------------:[{10110,10},{10111,-20},{10112,10}]
+error[2017/8/4 16:6:59][room_sandai:1371]PlayerId2-----:10114,   BombNum2-----:0
+error[2017/8/4 16:6:59][room_sandai:1371]PlayerId2-----:10113,   BombNum2-----:1
+error[2017/8/4 16:6:59][room_sandai:1376]PlayerId----:10115,    S1----:10    BombNum---:0
+error[2017/8/4 16:6:59][room_sandai:1371]PlayerId2-----:10115,   BombNum2-----:0
+error[2017/8/4 16:6:59][room_sandai:1371]PlayerId2-----:10113,   BombNum2-----:1
+error[2017/8/4 16:6:59][room_sandai:1376]PlayerId----:10114,    S1----:10    BombNum---:0
+error[2017/8/4 16:6:59][room_sandai:1371]PlayerId2-----:10115,   BombNum2-----:0
+error[2017/8/4 16:6:59][room_sandai:1371]PlayerId2-----:10114,   BombNum2-----:0
+error[2017/8/4 16:6:59][room_sandai:1376]PlayerId----:10113,    S1----:0    BombNum---:1
+error[2017/8/4 16:6:59][room_sandai:1385]BombScoreList---------------------------:[{10113,20},{10114,-10},{10115,-10}]
+error[2017/8/4 16:10:3][room_sandai:1371]PlayerId2-----:10114,   BombNum2-----:0
+error[2017/8/4 16:10:3][room_sandai:1371]PlayerId2-----:10113,   BombNum2-----:1
+error[2017/8/4 16:10:3][room_sandai:1376]PlayerId----:10115,    S1----:10    BombNum---:0
+error[2017/8/4 16:10:3][room_sandai:1371]PlayerId2-----:10115,   BombNum2-----:0
+error[2017/8/4 16:10:3][room_sandai:1371]PlayerId2-----:10113,   BombNum2-----:1
+error[2017/8/4 16:10:3][room_sandai:1376]PlayerId----:10114,    S1----:10    BombNum---:0
+error[2017/8/4 16:10:3][room_sandai:1371]PlayerId2-----:10115,   BombNum2-----:0
+error[2017/8/4 16:10:3][room_sandai:1371]PlayerId2-----:10114,   BombNum2-----:0
+error[2017/8/4 16:10:3][room_sandai:1376]PlayerId----:10113,    S1----:0    BombNum---:1
+error[2017/8/4 16:10:3][room_sandai:1385]BombScoreList---------------------------:[{10113,20},{10114,-10},{10115,-10}]

@@ -1,0 +1,40 @@
+
+=ERROR REPORT==== 24-Jul-2017::16:48:47 ===
+Mnesia('master2@server2.dev'): ** ERROR ** (core dumped to file: "d:/work/chuanshi/server_erlang/ebin/MnesiaCore.master2@server2.dev_1500_886127_795000")
+ ** FATAL ** Cannot open log file "d:/work/chuanshi/server_erlang/ebin/../var/mnesia/PREVIOUS.LOG": {file_error,
+                                                                                                     "d:/work/chuanshi/server_erlang/ebin/../var/mnesia/PREVIOUS.LOG",
+                                                                                                     eacces}
+
+=ERROR REPORT==== 24-Jul-2017::16:48:57 ===
+** Generic server mnesia_monitor terminating 
+** Last message in was {'EXIT',<0.229.0>,killed}
+** When Server state == {state,<0.229.0>,[],[],true,[],undefined,[],[]}
+** Reason for termination == 
+** killed
+
+=ERROR REPORT==== 24-Jul-2017::16:48:57 ===
+** Generic server mnesia_recover terminating 
+** Last message in was {'EXIT',<0.229.0>,killed}
+** When Server state == {state,<0.229.0>,undefined,undefined,undefined,0,
+                               false,true,[]}
+** Reason for termination == 
+** killed
+
+=ERROR REPORT==== 24-Jul-2017::16:48:57 ===
+Mnesia('master2@server2.dev'): ** ERROR ** mnesia_event got unexpected event: {'EXIT',
+                                                                               <0.231.0>,
+                                                                               killed}
+
+=ERROR REPORT==== 24-Jul-2017::16:48:57 ===
+** Generic server mnesia_ext_sup terminating 
+** Last message in was {'EXIT',<0.226.0>,killed}
+** When Server state == {state,{local,mnesia_ext_sup},
+                               one_for_all,[],undefined,10,60,[],0,
+                               mnesia_ext_sup,[]}
+** Reason for termination == 
+** killed
+
+=INFO REPORT==== 24-Jul-2017::16:48:57 ===
+    application: mnesia
+    exited: {killed,{mnesia_sup,start,[normal,[]]}}
+    type: temporary

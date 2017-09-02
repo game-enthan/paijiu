@@ -1,0 +1,37 @@
+error[2017/8/15 22:21:0][gambling_record:87]gambling_record------------------------------------
+error[2017/8/15 22:25:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:30:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:35:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:40:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:45:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:50:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:55:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 22:59:12][gambling_record:87]gambling_record------------------------------------
+error[2017/8/15 23:0:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:5:0][login_rpc:34]weixin-----------------------------------
+error[2017/8/15 23:5:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:7:49][do_data_of_mnesia:402]更新玩家房间id失败，RoleId:10011, RoomId:469394
+error[2017/8/15 23:9:45][do_data_of_mnesia:402]更新玩家房间id失败，RoleId:10011, RoomId:0
+error[2017/8/15 23:9:56][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:10:0][do_data_of_mnesia:39]同步失败      :10011
+error[2017/8/15 23:10:8][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:10:10][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:10:11][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:10:12][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:10:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:10:45][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:10:45][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:11:44][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:11:44][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:13:7][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:13:7][room_niuniu_rpc:96]deal msg err，OpCode:12020,Data:{}, role_id:10011, room_id:0, room_pid:0
+error[2017/8/15 23:13:26][do_data_of_mnesia:39]同步失败      :10011
+error[2017/8/15 23:15:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:20:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:25:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:30:40][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:35:41][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:40:41][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:45:41][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:50:41][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
+error[2017/8/15 23:55:41][do_data_of_mnesia:77]Name 此次同步结束-------------------------:room_log_backup_tab
